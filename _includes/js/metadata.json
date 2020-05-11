@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Person",
+  "name": "Stephanie M. Wyatt",
+  "url": "https://www.stephaniewyatt.tel",
+  "image": "https://www.stephaniewyatt.tel/img/avatar.jpg",
+  "sameAs": [
+    "https://tcu.academia.edu/StephanieWyatt",
+    "https://www.linkedin.com/in/stephaniemwyatt/",
+    "https://www.stephaniewyatt.net"
+  ],
+  "jobTitle": "Pastor, Teacher, and Community Organizer",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Stephanie Wyatt"
+  }
+}
