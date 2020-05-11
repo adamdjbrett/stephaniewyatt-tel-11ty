@@ -1,7 +1,7 @@
-# Adam DJ Brett Contact Information
-[adamdj.tel](https://www.adamdj.tel)
+# Stephanie M. Wyatt Contact Information
+[stephaniewyatt.tel](https://www.stephaniewyatt.tel)
 
-[![Build Status](https://travis-ci.org/adamdjbrett/adamdj-tel-11ty.svg?branch=master)](https://travis-ci.org/adamdjbrett/adamdj-tel-11ty)
+[![Build Status](https://travis-ci.org/adamdjbrett/stephaniewyatt-tel-11ty.svg?branch=master)](https://travis-ci.org/adamdjbrett/stephaniewyatt-tel-11ty/)
 
 ⚠️ WARNING: This is an Educational Project, not ready for production!⚠️
 
