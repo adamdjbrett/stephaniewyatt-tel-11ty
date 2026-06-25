@@ -18,15 +18,16 @@ I took the Front Cover Jekyll theme and imported it into eleventy as a liquid te
 Use a real [starter project](https://www.11ty.dev/docs/starter/) or a [beautiful theme](https://jamstackthemes.dev/)
 
 ## Scaffold
-	- [Eleventy](https://11ty.dev)
-	- [Eleventy base blog ](https://github.com/11ty/eleventy-base-blog)
-	- [Front Cover Jekyll Theme](https://github.com/dashingcode/front-cover) & [@epidrome cover-card theme fork](https://github.com/epidrome/cover-card)
-		- Updated to use Font-Awesome 4.7.0
-		- [Load CSS asynchronously](https://github.com/filamentgroup/loadCSS/)
+
+- [Eleventy](https://11ty.dev)
+- [Eleventy base blog ](https://github.com/11ty/eleventy-base-blog)
+- [Front Cover Jekyll Theme](https://github.com/dashingcode/front-cover) & [@epidrome cover-card theme fork](https://github.com/epidrome/cover-card)
+- Updated to use Font-Awesome 4.7.0
+- [Load CSS asynchronously](https://github.com/filamentgroup/loadCSS/)
 - Added `404.html` page and using [html5boilerplate.com](https://html5boilerplate.com/)
 - Added `robots.txt` using `robots.njk`
 - Built on github pages using [travis-ci](travis-ci.org)
-	- [Snook](https://snook.ca/archives/servers/deploying-11ty-to-gh-pages) has excellent for instructions on how to deploy Eleventy to Github Pages
+- [Snook](https://snook.ca/archives/servers/deploying-11ty-to-gh-pages) has excellent for instructions on how to deploy Eleventy to Github Pages
 
 ---
 Below is the the README for eleventy base blog the theme you should actually use.
