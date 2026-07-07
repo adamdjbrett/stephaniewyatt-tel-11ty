@@ -33,9 +33,8 @@
         {% set css %}
           {% include "../css/main.css" %}
         {% endset %}
-        <!-- feed it through our cssmin filter to minify -->
         <style>
-          {{ css | cssmin | safe }}
+          {{ css | safe }}
         </style>
         <link rel="preload" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" as="style" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="print" onload="this.media='all'" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -143,7 +142,6 @@
           {% include "../js/schema.min.json" %}
           {% include "../js/metadata.min.json" %}
         {% endset %}
-        <!-- feed it through our jsmin filter to minify -->
         <script type="application/ld+json">
           {{ js | safe }}
         </script>

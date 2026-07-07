@@ -1,7 +1,7 @@
 {
-  "name": "eleventy-base-blog",
-  "version": "5.0.2",
-  "description": "A starter repository for a blog web site using the Eleventy static site generator.",
+  "name": "stephaniewyatt-tel-11ty",
+  "version": "1.0.0",
+  "description": "A lightweight Eleventy site for Stephanie Wyatt.",
   "scripts": {
     "build": "eleventy",
     "watch": "eleventy --watch",
@@ -10,36 +10,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/11ty/eleventy-base-blog.git"
+    "url": "git+https://github.com/adamdjbrett/stephaniewyatt-tel-11ty.git"
   },
-  "author": "Zach Leatherman <zachleatherman@gmail.com> (https://zachleat.com/)",
+  "author": "Adam DJ Brett",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/11ty/eleventy-base-blog/issues"
+    "url": "https://github.com/adamdjbrett/stephaniewyatt-tel-11ty/issues"
   },
-  "homepage": "https://github.com/11ty/eleventy-base-blog#readme",
+  "homepage": "https://github.com/adamdjbrett/stephaniewyatt-tel-11ty#readme",
   "devDependencies": {
-    "@11ty/eleventy": "4.0.0-alpha.8",
-    "@11ty/eleventy-navigation": "1.0.5",
-    "@11ty/eleventy-plugin-rss": "^1.0.7",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
-    "luxon": "^1.24.0",
-    "markdown-it": ">=12.3.2",
+    "@11ty/eleventy": "4.0.0-alpha.10",
+    "markdown-it": "14.2.0",
     "markdown-it-anchor": "9.2.0"
-  },
-  "dependencies": {
-    "clean-css": "^4.2.3",
-    "html-minifier": "^4.0.0",
-    "node-gyp": "^6.1.0",
-    "slugify": "^1.4.0",
-    "terser": "^4.6.13",
-    "uglify-es": "^3.3.9"
   },
   "main": ".eleventy.js",
   "keywords": [],
   "engines": {
     "node": ">=24",
-    "npm": ">=11.14.0"
+    "npm": ">=11"
   },
-  "packageManager": "npm@11.14.0"
+  "packageManager": "npm@11.11.0"
 }

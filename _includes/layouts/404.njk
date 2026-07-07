@@ -7,9 +7,8 @@
     {% set css %}
       {% include "../css/404.css" %}
     {% endset %}
-    <!-- feed it through our cssmin filter to minify -->
     <style>
-      {{ css | cssmin | safe }}
+      {{ css | safe }}
     </style>
 </head>
 <body>
